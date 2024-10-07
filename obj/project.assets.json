@@ -1,0 +1,160 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Markdig/0.37.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Markdig.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Markdig.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Westwind.AspNetCore.Markdown/3.21.0": {
+        "type": "package",
+        "dependencies": {
+          "Markdig": "0.37.0"
+        },
+        "compile": {
+          "lib/net8.0/Westwind.AspNetCore.Markdown.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Westwind.AspNetCore.Markdown.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Markdig/0.37.0": {
+      "sha512": "biiu4MTPFjW55qw6v5Aphtj0MjDLJ14x8ndZwkJUHIeqvaSGKeqhLY7S7Vu/S3k7/c9KwhhnaCDP9hdFNUhcNA==",
+      "type": "package",
+      "path": "markdig/0.37.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Markdig.dll",
+        "lib/net462/Markdig.xml",
+        "lib/net6.0/Markdig.dll",
+        "lib/net6.0/Markdig.xml",
+        "lib/net8.0/Markdig.dll",
+        "lib/net8.0/Markdig.xml",
+        "lib/netstandard2.0/Markdig.dll",
+        "lib/netstandard2.0/Markdig.xml",
+        "lib/netstandard2.1/Markdig.dll",
+        "lib/netstandard2.1/Markdig.xml",
+        "markdig.0.37.0.nupkg.sha512",
+        "markdig.nuspec",
+        "markdig.png",
+        "readme.md"
+      ]
+    },
+    "Westwind.AspNetCore.Markdown/3.21.0": {
+      "sha512": "JGDysMY9+wIB+guKe7dz1cB4HFxBaPKl3uFsBTUmY+DG6EbH/oEbclrjfcF8B87k6h0f3/jfxz73dNT0g4JLGg==",
+      "type": "package",
+      "path": "westwind.aspnetcore.markdown/3.21.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.MD",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/Westwind.AspNetCore.Markdown.dll",
+        "lib/net6.0/Westwind.AspNetCore.Markdown.xml",
+        "lib/net8.0/Westwind.AspNetCore.Markdown.dll",
+        "lib/net8.0/Westwind.AspNetCore.Markdown.xml",
+        "westwind.aspnetcore.markdown.3.21.0.nupkg.sha512",
+        "westwind.aspnetcore.markdown.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Westwind.AspNetCore.Markdown >= 3.21.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ayush\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ayush\\source\\repos\\Markdown Note-taking App\\Markdown Note-taking App\\Markdown Note-taking App.csproj",
+      "projectName": "Markdown Note-taking App",
+      "projectPath": "C:\\Users\\Ayush\\source\\repos\\Markdown Note-taking App\\Markdown Note-taking App\\Markdown Note-taking App.csproj",
+      "packagesPath": "C:\\Users\\Ayush\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ayush\\source\\repos\\Markdown Note-taking App\\Markdown Note-taking App\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Ayush\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Westwind.AspNetCore.Markdown": {
+            "target": "Package",
+            "version": "[3.21.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
