@@ -34,10 +34,3 @@ C:\Users\Ayush\source\repos\Markdown Note-taking App\Markdown Note-taking App\ob
 C:\Users\Ayush\source\repos\Markdown Note-taking App\Markdown Note-taking App\obj\Debug\net8.0\Markdown Note-taking App.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Ayush\source\repos\Markdown Note-taking App\Markdown Note-taking App\obj\Debug\net8.0\Markdown.65D8052C.Up2Date
 C:\Users\Ayush\source\repos\Markdown Note-taking App\Markdown Note-taking App\obj\Debug\net8.0\Markdown Note-taking App.sourcelink.json
-C:\Users\Ayush\source\repos\Markdown Note-taking App\Markdown Note-taking App\bin\Debug\net8.0\Grpc.Core.dll
-C:\Users\Ayush\source\repos\Markdown Note-taking App\Markdown Note-taking App\bin\Debug\net8.0\Grpc.Core.Api.dll
-C:\Users\Ayush\source\repos\Markdown Note-taking App\Markdown Note-taking App\bin\Debug\net8.0\runtimes\linux-arm64\native\libgrpc_csharp_ext.arm64.so
-C:\Users\Ayush\source\repos\Markdown Note-taking App\Markdown Note-taking App\bin\Debug\net8.0\runtimes\linux-x64\native\libgrpc_csharp_ext.x64.so
-C:\Users\Ayush\source\repos\Markdown Note-taking App\Markdown Note-taking App\bin\Debug\net8.0\runtimes\osx-x64\native\libgrpc_csharp_ext.x64.dylib
-C:\Users\Ayush\source\repos\Markdown Note-taking App\Markdown Note-taking App\bin\Debug\net8.0\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
-C:\Users\Ayush\source\repos\Markdown Note-taking App\Markdown Note-taking App\bin\Debug\net8.0\runtimes\win-x86\native\grpc_csharp_ext.x86.dll
